@@ -5,7 +5,7 @@ a {
 
 .header {
   color: darkblue;
-  padding: 30px;
+  padding: 30px 30px 30px 0;
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -13,22 +13,25 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  
 }
 
 .ttl {
   font-size: 25px;
+  padding-left: 30px;
 }
 
 .list {
   display: flex;
-  font-weight: bold; 
-  
+  font-weight: bold;
 }
 
 li {
   padding: 0 15px;
-  
+}
+
+li:last-child {
+  margin-right: 15px;
+  padding-right: 15px;
 }
 
 .nav {
@@ -47,7 +50,6 @@ li {
   width: 800px;
   z-index: 100;
 }
-
 
 .box {
   background-color: darkblue;
